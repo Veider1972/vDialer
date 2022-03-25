@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">5sp</dimen>
+    <dimen name="contacts_title_text_size">25sp</dimen>
+    <dimen name="contact_picture_size">60sp</dimen>
+    <dimen name="contact_name_layout_size">30sp</dimen>
+    <dimen name="contact_name_text_size">17sp</dimen>
+    <dimen name="contact_phone_layout_size">25sp</dimen>
+    <dimen name="contact_phone_text_size">15sp</dimen>
+</resources>
