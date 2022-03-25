@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">vDialer</string>
+    <string name="request_title">Доступ к контактам</string>
+    <string name="request_message">Объяснение</string>
+    <string name="close">Закрыть</string>
+    <string name="access_title">Внимание</string>
+    <string name="access_explanation">Для доступа к контактам необходимо предоставить соответствующие разрешения</string>
+    <string name="access_yes">Предоставить доступ</string>
+    <string name="access_no">Не надо</string>
+    <string name="contact_image_description">Contact Image</string>
+    <string name="contacts_title_text">Список контактов</string>
 </resources>

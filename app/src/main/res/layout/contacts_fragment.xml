@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/screen_padding"
+    tools:context=".ui.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/contacts_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/screen_padding"
+            android:text="@string/contacts_title_text"
+            android:textColor="@color/black"
+            android:textSize="@dimen/contacts_title_text_size" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/contacts_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/contact_item" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/loading_layout"
+        layout="@layout/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
